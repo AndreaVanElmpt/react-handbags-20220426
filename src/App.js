@@ -78,10 +78,10 @@ function App() {
               <footer>
                   <Tiles
                       headline="THE BRAND"
-                      descriptionText="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Accusamus ad autem cumque dolor eos labore odit quisquam veniam veritatis voluptate."
-                      descriptionTextTwo="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Accusamus ad autem cumque dolor eos labore odit quisquam veniam veritatis voluptate."                  />
+                      paragraph={["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa eius eligendi ex harum ipsum maiores, nesciunt quis rem, unde vel voluptatem?",
+                          "Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae, rerum unde veniam voluptatibus."]}
+
+                  />
                   <Tiles
                       image={brand}
                   />
@@ -90,10 +90,11 @@ function App() {
                   />
                   <Tiles
                       headline="THE STORY"
-                      descriptionText="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Accusamus ad autem cumque dolor eos labore odit quisquam veniam veritatis voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Accusamus
                                     "
+
                   />
               </footer>
 
