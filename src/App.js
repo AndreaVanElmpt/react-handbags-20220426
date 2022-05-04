@@ -23,20 +23,20 @@ function App() {
               <Button
                   type="button"
                   description="to the collection"
-                  setDescription="To the collection"
+
                   disabled={false}
               />
 
               <Button
                   type="button"
                   description="shop all bags"
-                  setDescription="Shop all bags"
+
                   disabled={false}
               />
               <Button
                   type="button"
                   description="pre-orders"
-                  setDescription="Pre-orders"
+
                   disabled={true}
 
              />
@@ -78,24 +78,30 @@ function App() {
               <footer>
                   <Tiles
                       headline="THE BRAND"
-                      paragraph={["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa eius eligendi ex harum ipsum maiores, nesciunt quis rem, unde vel voluptatem?",
-                          "Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae, rerum unde veniam voluptatibus."]}
 
-                  />
+                  >
+                      <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa eius eligendi ex harum ipsum maiores, nesciunt quis rem, unde vel voluptatem?"
+                          </p>
+                      <p>
+                          "Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae, rerum unde veniam voluptatibus."</p>
+
+                  </Tiles>
+
                   <Tiles
                       image={brand}
                   />
+
                   <Tiles
                       image={story}
                   />
                   <Tiles
                       headline="THE STORY"
-                      paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      >
+                      <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Accusamus ad autem cumque dolor eos labore odit quisquam veniam veritatis voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Accusamus
-                                    "
+                          Accusamus"</p>
 
-                  />
+                      </Tiles>
               </footer>
 
 

@@ -1,10 +1,10 @@
 import React from "react";
 
-function Button({description, setDescription, disabled}) {
+function Button({description, disabled}) {
 
     return (
 
-       <button onClick={() => console.log(setDescription)}
+       <button onClick={() => console.log(description)}
                disabled={disabled}
 
 

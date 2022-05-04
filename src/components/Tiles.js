@@ -1,14 +1,12 @@
 import React from "react";
 
-function Tiles({headline, paragraph, image, brandTitle}) {
-    const paragraphs = Array.isArray(paragraph)?paragraph:[paragraph];
+function Tiles({headline, image, brandTitle, children}) {
+
     return(
         <section>
             <h2>{headline}</h2>
-            {
-                paragraphs.map((text => <p>{text}</p> ))
-            }
-            <img src={image} alt={brandTitle} />
+            {children}
+            {image && <img src={image} alt={brandTitle} />}
         </section>
 
     );
